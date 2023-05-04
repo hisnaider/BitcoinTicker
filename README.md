@@ -1,16 +1,27 @@
-# bitcoin_ticker
+# Bitcoin Ticker
+<span align="center">
+  <div style="display: flex; flex-direction: row; justify-content: space=between;">
+    <img src="https://user-images.githubusercontent.com/13882534/236292824-49f3754b-545c-458c-b96d-c0c0b920643e.jpg" width=200px>
+    <img src="https://user-images.githubusercontent.com/13882534/236292819-00255814-d9e2-4f8a-a7b8-84a7ed0f693c.jpg" width=200px>
+    <img src="https://user-images.githubusercontent.com/13882534/236292812-250c2a01-d7eb-4314-ac23-03cc5651fb85.jpg" width=200px>
+  </div>
+</span>
+<p>
+É um aplicativo de conversão de criptomoedas que permite aos usuários converter os preços das moedas digitais mais populares para diversas moedas fiduciárias. O aplicativo utiliza a API CoinAPI para obter as informações atualizadas sobre as cotações das moedas digitais.
+</p>
+<p>
+Este app foi desenvolvido com o intuito de praticar algumas funcionalidades e melhorar as habilidades em Flutter. Faz parte do curso "The Complete Flutter Development Bootcamp with Dart", da Dr. Angela Yu
+</p>
 
-A new Flutter project.
+## Como rodar esse aplicativo?
 
-## Getting Started
+1 - Faça um clone desse repositório
 
-This project is a starting point for a Flutter application.
+2 - Crie uma conta no CoinAPI(https://www.coinapi.io) pra obter uma chave
 
-A few resources to get you started if this is your first Flutter project:
+3 - Copie a chave e cole no lugar do texto "CHAVE DA API AQUI", na linha 71 do arquivo coin_class.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+4 - Rode o seguinte comando "flutter pub get" no terminal pra instalar todas dependencias
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5 - Execute o aplicativo (F5 no VSCode) e espere ele ser criado no dispostivo virtual ou fisico
+
